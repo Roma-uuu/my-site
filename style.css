@@ -48,9 +48,9 @@ img {
 hr{
 	display: block;
 	border: 0;
-	height: 1px;
+	height: 1 px;
 	border-top: 1px solid #ccc;
-	padding: 0px;
+	padding: 0 px;
 }
 
 .right {float: right}
@@ -115,9 +115,7 @@ input[type=text].field:focus {
 	color: #626262;
 }
 
-#MenuHrefs a:hover {
-	background-color: #ececec;
-}
+#MenuHrefs a:hover {background-color: #ececec}
 
 /* Основные стили для сайта */
 
@@ -141,7 +139,29 @@ input[type=text].field:focus {
 	border-radius: 5px;
 	background-color: #fafafa;
 	margin-right: 2%;
-	min-height: 400px;
+	min-height: 200px;
+}
+
+#wrapper #articles article img {
+	width: 100%;
+	height: 200px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+}
+
+#wrapper #articles article img h2 {
+	width: 98%;
+	margin-left: 5%;
+	font-weight: normal;
+	font-size: 1.7em;
+	color: #8ce4a6;
+}
+
+#wrapper #articles article img p {
+	width: 80%;
+	margin-left: 10%;
+	text-indent: 1em;
 }
 
 /* Стили для футера */
