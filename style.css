@@ -45,7 +45,7 @@ img {
 	width: auto\9;
 }
 
-hr{
+hr {
 	display: block;
 	border: 0;
 	height: 1 px;
@@ -122,7 +122,8 @@ input[type=text].field:focus {
 #wrapper {
 	float: left;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: -700px;
+
 }
 
 #wrapper #articles {
@@ -132,7 +133,6 @@ input[type=text].field:focus {
 }
 
 #wrapper #articles article {
-	float: left;
 	width: 31.33333%;
 	border: 1px solid silver;
 	box-sizing: border-box;
@@ -140,6 +140,7 @@ input[type=text].field:focus {
 	background-color: #fafafa;
 	margin-right: 2%;
 	min-height: 200px;
+	float: left;
 }
 
 #wrapper #articles article img {
@@ -162,6 +163,39 @@ input[type=text].field:focus {
 	width: 80%;
 	margin-left: 10%;
 	text-indent: 1em;
+}
+
+/* Центральный блок сайта */
+
+#main_soc_block {
+	width: 100%;
+	padding: 2% 0;
+	border-bottom: 2px solid silver;
+	border-top: 2px solid silver;
+	margin: 200px 0;
+	float: left;
+	background: url("panama.jpg") repeat-x center 0;
+	height: 300px;
+}
+
+#main_soc_block_in {
+	text-align: center;
+	padding: 1%;
+	height: 100px;
+	background-color: #fafafa;
+	border: 1px solid silver;
+	border-radius: 7px;
+	width: 500px;
+}
+
+#main_soc_block_in a {
+	float: left;
+	padding: 5px 10px;
+	background-color: #e9af32;
+	border-radius: 6px;
+	color: #fff;
+	margin-left: 35%;
+	margin-top: 15px;
 }
 
 /* Стили для футера */
